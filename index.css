@@ -1,39 +1,72 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .header {
-margin: 10px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: flex-start;
-    background: #025464;
-    /* width: 100%; */
-    height: 90px;
+  margin: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-start;
+  background: #025464;
+  /* width: 100%; */
+  height: 90px;
 }
-
-
-
-
 
 .eventgallary {
-    margin-top: 10px;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3rem;
-    margin-left: 30px;
-
+  margin-top: 10px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 3rem;
+  margin-left: 30px;
 }
-.logoimg{
-    width: 5rem;
-    height: 5rem;
-    justify-self: center;
-    border-radius: 50%;
+.logoimg {
+  width: 5rem;
+  height: 5rem;
+  justify-self: center;
+  border-radius: 50%;
 }
 
-.logo{
-    margin-left: 5rem;
-    padding: 0.3rem;
+.logo {
+  margin-left: 5rem;
+  padding: 0.3rem;
+}
+
+.webTop {
+  background-image: url("topBG.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.overlay {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  /* padding: 20px; */
+  text-align: center;
+  justify-content: center;
+  color: white;
+  /* max-width: 600px; */
+  height: 100%;
+  width: 100%;
+}
+
+.overlay h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 1.2em;
+}
+
+.clubs {
+  margin: 5px;
+  background-color: aqua;
 }
