@@ -34,7 +34,7 @@
 }
 
 .webTop {
-  background-image: url("topBG.jpeg");
+  background-image: url("./assets/topBG.jpeg");
   background-size: cover;
   background-position: center;
   height: 50vh;
