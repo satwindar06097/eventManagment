@@ -73,8 +73,75 @@ padding-top: 20px;
 
 .clubs {
   margin: 5px;
-  background-color:#F7FFE5;
 }
+
+.ccards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ccard {
+  width: 220px;
+  height: 300px;
+  margin: 18px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  position: relative;
+  /* padding: 1.8rem; */
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ccard > img {
+  height: 150px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cdesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.cdesc > p {
+  /* align-items: center;
+  align-content: center; */
+  color: #05050582;
+}
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.ccard:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ccard:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
 .eventlist{
   background:#E1ECC8 ;
 }
