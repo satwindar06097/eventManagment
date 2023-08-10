@@ -97,6 +97,8 @@
 }
 
 .ccard {
+  /* display: flex;
+  justify-content: space-between; */
   width: 220px;
   height: 300px;
   margin: 18px;
