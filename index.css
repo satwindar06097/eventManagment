@@ -3,6 +3,30 @@
   padding: 0px;
   box-sizing: border-box;
 }
+@media (max-width: 767px) {
+  .header{
+    padding: 10px 0;
+    font-size: 14px;
+
+    /* Additional styles if needed */
+  }
+  .logo{
+    display: none;
+  }
+
+  .foot {
+    padding: 6px 0; /* Adjust padding for smaller screens */
+    margin: 2px 0; /* Adjust margin for smaller screens */
+  }
+
+  .foothead {
+    margin-left: 0px; /* Reset margin for smaller screens */
+    font-size: 5px; /* Adjust font size for smaller screens */
+    justify-content: flex-start; /* Adjust alignment for smaller screens */
+  }
+
+}
+
 
 .header {
   margin: 10px;
@@ -206,21 +230,22 @@ padding-top: 20px;
 }
 /* /////////////////////////////////////////////foorter part//////////////////////////////////////////////////////// */
 .foot{
-  padding: 1rem;
+  padding: 16px;
   background:#A0C49D;
-  color: white;
+  color: #000;
   margin: 10px;
   border-radius: 12px;
 }
-.footer{
+
+.foothead{
+  margin-left: 640px;
+  font-size: 25px;
+  justify-content: center;
+}
+/* .footer{
   margin-top: 1.75rem;
   font-size: 1.4rem;
   gap: 5rem;
   display: flex;
   justify-content: center;
-}
-.foothead{
-  margin-left: 40rem;
-  font-size: 1.30rem;
-  justify-content: center;
-}
+} */
