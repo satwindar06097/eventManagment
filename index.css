@@ -228,6 +228,48 @@ padding-top: 20px;
   justify-self: center;
   border-radius: 50%;
 }
+
+.ecards-container {
+  overflow: hidden;
+  position: relative;
+}
+.ecards {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.3s ease-in-out;
+}
+.slider-btn {
+  position: absolute;
+  top: 250px;
+  z-index: 10;
+
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 2.6rem;
+  width: 2.6rem;
+  font-size: 1.875rem;
+  cursor: pointer;
+}
+.slider-btns {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#prevBtn {
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+#nextBtn {
+  right: 6%;
+  transform: translate(50%, -50%);
+}
+
 /* /////////////////////////////////////////////foorter part//////////////////////////////////////////////////////// */
 .foot{
   padding: 16px;
