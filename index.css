@@ -2,35 +2,21 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 @media (max-width: 767px) {
-  .header {
-    padding: 10px 0;
-    font-size: 14px;
-
-    /* Additional styles if needed */
-  }
   .logo {
     display: none;
-  }
-
-  .foot {
-    padding: 6px 0; /* Adjust padding for smaller screens */
-    margin: 2px 0; /* Adjust margin for smaller screens */
-  }
-
-  .foothead {
-    margin-left: 0px; /* Reset margin for smaller screens */
-    font-size: 5px; /* Adjust font size for smaller screens */
-    justify-content: flex-start; /* Adjust alignment for smaller screens */
   }
 }
 
 .header {
-  margin: 10px;
-  border-radius: 12px;
+  margin: 5px;
+  border-radius: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
+  align-content: center;
   background: #a0c49d;
   /* position: sticky;
     top: 0;
@@ -40,11 +26,14 @@
 }
 
 .eventgallary {
-  margin-top: 10px;
+  display: flex;
+  /* margin-top: 10px; */
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 3rem;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 2.7rem;
   margin-left: 30px;
+  align-content: center;
 }
 .logoimg {
   width: 5rem;
@@ -266,18 +255,23 @@
 
 /* /////////////////////////////////////////////foorter part//////////////////////////////////////////////////////// */
 .foot {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   padding: 16px;
   background: #a0c49d;
   color: #000;
   margin: 10px;
   border-radius: 12px;
+  justify-content: center;
+  align-content: center;
+  font-size: 25px;
 }
 
-.foothead {
+/* .foothead {
   margin-left: 640px;
-  font-size: 25px;
   justify-content: center;
-}
+} */
 /* .footer{
   margin-top: 1.75rem;
   font-size: 1.4rem;
