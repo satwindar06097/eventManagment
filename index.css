@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+a{
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none; /* Removes underlines from visited links */
+  color: black;
+}
 @media (max-width: 767px) {
   .logo {
     display: none;
@@ -175,9 +182,13 @@
   transition: 0.3s;
   width: 250px;
   background: white;
+  transition: all 0.3s ease-in-out;
+  
 }
 .ecard1:hover {
   box-shadow: 8px 8px 16px 4px rgba(0, 0, 0, 0.2);
+  scale: 1.2;
+  
 }
 
 .ecardimg1 {
@@ -202,6 +213,9 @@
   color: rgb(138, 136, 136);
 }
 
+.top4 > strong{
+  color: black;
+}
 .read {
   text-decoration: none;
   color: rgb(81, 132, 226);
